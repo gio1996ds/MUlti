@@ -28,7 +28,7 @@ cd multipleforlinux
 nohup ./multiple-node > output.log 2>&1 &
 
 # Run multiple-cli with desired settings
-multiple-cli bind --bandwidth-download 100000 --identifier H74YUQ9H --pin 081296 --storage 20000000 --bandwidth-upload 100000
+multiple-cli bind --bandwidth-download 100000 --identifier H74YUQ9H --pin 081296 --storage 10000000 --bandwidth-upload 100000
 
 # Start multiple-cli
 multiple-cli start
